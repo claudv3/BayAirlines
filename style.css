@@ -1,0 +1,160 @@
+
+#navigation a {
+    text-decoration: none;
+    color: #19a591;
+    font-size: 24px;
+    padding: 20px;
+    display: inline;
+    font-family: "fieldwork", sans-serif;
+}
+
+#navigation {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+#navigation img {
+    width: 20%;
+}
+
+#navigation a:hover{
+    color: #005481;
+}
+
+
+i {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    position: right;
+}
+
+#splash {
+    background-size: cover;
+    background-image: url(GGB.jpeg);
+    height: 600px;
+    font-family: "fieldwork";
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+
+
+.why {
+    display: inline;
+    justify-content: left;
+    font-family: "fieldwork", sans-serif;
+    text-align: center;
+    float: left;
+    width: 45%;
+    padding: 20px;
+    height: 250px;
+    color: #005481;
+    
+}
+
+.why p {
+    text-align: left;
+    color: black;
+}
+
+
+.about {
+    display: inline;
+    justify-content: right;
+    font-family: "fieldwork", sans-serif;
+    text-align: center;
+    float: right;
+    width: 45%;
+    padding: 20px;
+    height: 250px;
+    color: #005481;
+}
+
+.about p {
+    text-align: left;
+    color: black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.why p {
+    font-family: Helvetica;
+}
+
+.about p {
+    font-family: Helvetica;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: #19a591;
+    padding: 15px 32px;
+    font-family: "Fieldwork";
+    font-size: 30px;
+    margin: 4px 2px;
+}
+
+button:hover {
+    color: #005481;
+}
+.book {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+footer {
+    background-size: contain;
+    color: white;
+    font-family: Helvetica;
+    background-image: url(assignment3-footer.png);
+    height: 100px
+}
+
+footer p {
+    display: grid; 
+    padding-left: 10px;
+    padding-top: 3.5px;
+    font-size: 15px;
+}
+
+footer i {
+    display: grid; 
+    padding-left: 10px;
+}
+
+
+#destinations img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+#destinations section {
+    padding: 15px;
+    font-family: "fieldwork";
+    text-align: center;
+    color: #005481;
+}
+
+#destinations {
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+}
